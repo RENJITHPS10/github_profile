@@ -42,19 +42,19 @@ function Header() {
                 </Container>
             </Navbar>
             <header className='line bg-dark px-3' >
-                <Button variant='dark' className="border-0 p-0 me-2 ">
+                <Button variant='dark' className="border-0 p-0 me-2 bg-dark ">
                     <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faBookOpen} className='me-1 fa-md ' /> Overview</p>
                 </Button>
-                <Button variant='dark' className="border-0 p-0 me-2">
+                <Button variant='dark' className="border-0 p-0 me-2 bg-dark">
                     <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faCode} className='me-1 fa-md' /> Repositories <span className='round'>13</span></p>
                 </Button>
-                <Button variant='dark' className="border-0 p-0 me-2">
+                <Button variant='dark' className="border-0 p-0 me-2 bg-dark">
                     <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faTable} className='me-1 fa-md' /> Projects</p>
                 </Button>
-                <Button variant='dark' className="border-0 p-0 me-2">
+                <Button variant='dark' className="border-0 p-0 me-2 bg-dark">
                     <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faCube} className='me-1 fa-md' /> Packages</p>
                 </Button>
-                <Button variant='dark' className="border-0 p-0 me-2">
+                <Button variant='dark' className="border-0 p-0 me-2 bg-dark">
                     <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faStar} className='me-1 fa-md' /> Stars</p>
                 </Button>
             <hr className='hr' />

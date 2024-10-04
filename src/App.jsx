@@ -3,6 +3,7 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import Header from './components/Header'
 import Profile from './components/Profile'
+import Details from './components/Details'
 function App() {
 
 
@@ -13,11 +14,11 @@ function App() {
      
         <Container>
           <Row>
-            <Col md={4}>
+            <Col md={3}>
             <Profile/>
             </Col>
-            <Col md={8}>
-            
+            <Col md={9} className='mt-4 py-1 px-5'>
+            <Details/>
             </Col>
           </Row>
         </Container>

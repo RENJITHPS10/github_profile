@@ -1,9 +1,12 @@
 // Step 1: Override Bootstrap variables before importing Bootstrap
-$primary: blue; // Custom primary color
-$secondary: #737373; // Custom secondary color
-$success: #28a745; // Custom success color
-$danger: #0d1117;; // Custom danger color
+$primary: #9198a1; // Custom primary color
+$secondary: #3d444d; // Custom secondary color
+$success: #212830; // Custom success color
+$danger: #0d1117; // Custom danger color
 $dark:black;
+$info:#4493f8;
+
+
 
 // Step 2: Import Bootstrap's SCSS files
 @import "bootstrap/scss/bootstrap";
