@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import '../custom.scss'
 import '../App.css'
-import { faAngleDown, faCodePullRequest, faCube, faEnvelopeOpen, faPlus, faTable } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDown, faBookBookmark, faCodePullRequest, faCube, faEnvelopeOpen, faPlus, faTable } from '@fortawesome/free-solid-svg-icons';
 import { faCircleDot, faStar } from '@fortawesome/free-regular-svg-icons';
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons/faBookOpen';
-import { faCode } from '@fortawesome/free-solid-svg-icons/faCode';
+
 
 
 function Header() {
@@ -43,19 +43,19 @@ function Header() {
             </Navbar>
             <header className='line bg-dark px-3' >
                 <Button variant='dark' className="border-0 p-0 me-2 bg-dark ">
-                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faBookOpen} className='me-1 fa-md ' /> Overview</p>
+                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faBookOpen} className='me-1 fa-md text-warning  ' /> Overview</p>
                 </Button>
                 <Button variant='dark' className="border-0 p-0 me-2 bg-dark">
-                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faCode} className='me-1 fa-md' /> Repositories <span className='round'>13</span></p>
+                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faBookBookmark} className='me-1 fa-md text-warning' /> Repositories <span className='round'>13</span></p>
                 </Button>
                 <Button variant='dark' className="border-0 p-0 me-2 bg-dark">
-                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faTable} className='me-1 fa-md' /> Projects</p>
+                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faTable} className='me-1 fa-md text-warning' /> Projects</p>
                 </Button>
                 <Button variant='dark' className="border-0 p-0 me-2 bg-dark">
-                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faCube} className='me-1 fa-md' /> Packages</p>
+                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faCube} className='me-1 fa-md text-warning' /> Packages</p>
                 </Button>
                 <Button variant='dark' className="border-0 p-0 me-2 bg-dark">
-                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faStar} className='me-1 fa-md' /> Stars</p>
+                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faStar} className='me-1 fa-md text-warning' /> Stars</p>
                 </Button>
             <hr className='hr' />
             </header>
