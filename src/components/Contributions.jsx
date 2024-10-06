@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import Contributions2 from './Contributions2';
 
 function Contributions() {
     // Create an array of contributions (52 weeks, 7 days per week)
@@ -85,6 +86,7 @@ function Contributions() {
                             </div>
                         </div>
                     </div>
+                   <Contributions2/>
                 </Col>
                 <Col md={2}>
                     <div className='flex-wrap d-flex'>

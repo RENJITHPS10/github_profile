@@ -17,7 +17,7 @@ function Details() {
                     <FontAwesomeIcon icon={faPen} className='text-secondary p-0' />
                 </div>
                 <h3 className="text-center ">Hi 👋, I'm RENJITH P S</h3>
-                <hr className="line mt-2" />
+                <hr className="line mt-2 te" />
                 <h3 className="text-center">An enthusiastic MERN stack developer from India</h3>
                 <hr className="line mt-2 " />
                 <h5 className="text-center">On the path to becoming a software engineer</h5>
