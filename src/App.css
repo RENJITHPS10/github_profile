@@ -56,17 +56,6 @@
   height: 4px;
   background-color: #ffffff;
 }
-.contribution-grid {
-    display: flex;
-    flex-direction: row;
-}
-
-.week {
-    display: flex;
-    flex-direction: column;
-    margin-right: 2px;
-}
-
 .day {
     width: 10px;
     height: 10px;
