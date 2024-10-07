@@ -72,17 +72,17 @@ function Contributions() {
 
                             {/* Display contribution legend */}
                             <div className='d-flex justify-content-between align-items-center'>
-                                <p style={{ fontSize: '12px' }} className='text-warning  '>
-                                    Learn how we count 
+                                <p style={{ fontSize: '12px' }} className='text-warning m-0  '>
+                                    Learn how we count contributions
                                 </p>
-                                <div className='d-flex '>
+                                <div className='d-flex align-items-center'>
                                     <span style={{ fontSize: '12px', marginRight: '8px' }} className='text-warning'>Less</span>
-                                    <div className='d-flex  '>
-                                        <div style={{ width: '12px', height: '12px', backgroundColor: 'rgb(255 255 255 / 5%)', margin: '0 4px', borderRadius: '2px' }}></div>
-                                        <div style={{ width: '12px', height: '12px', backgroundColor: '#9be9a8', margin: '0 4px', borderRadius: '2px' }}></div>
-                                        <div style={{ width: '12px', height: '12px', backgroundColor: '#40c463', margin: '0 4px', borderRadius: '2px' }}></div>
-                                        <div style={{ width: '12px', height: '12px', backgroundColor: '#30a14e', margin: '0 4px', borderRadius: '2px' }}></div>
-                                        <div style={{ width: '12px', height: '12px', backgroundColor: '#216e39', margin: '0 4px', borderRadius: '2px' }}></div>
+                                    <div className='d-flex align-items-center '>
+                                        <div style={{ width: '12px', height: '12px', backgroundColor: 'rgb(255 255 255 / 5%)', margin: '0 2px', borderRadius: '2px' }}></div>
+                                        <div style={{ width: '12px', height: '12px', backgroundColor: '#9be9a8', margin: '0 2px', borderRadius: '2px' }}></div>
+                                        <div style={{ width: '12px', height: '12px', backgroundColor: '#40c463', margin: '0 2px', borderRadius: '2px' }}></div>
+                                        <div style={{ width: '12px', height: '12px', backgroundColor: '#30a14e', margin: '0 2px', borderRadius: '2px' }}></div>
+                                        <div style={{ width: '12px', height: '12px', backgroundColor: '#216e39', margin: '0 2px', borderRadius: '2px' }}></div>
                                     </div>
                                     <span style={{ fontSize: '12px', marginLeft: '8px' }} className='text-warning'>More</span>
                                 </div>
