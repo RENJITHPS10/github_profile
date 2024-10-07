@@ -60,6 +60,28 @@
     width: 10px;
     height: 10px;
     margin-bottom: 2px;
-    border-radius: 2px; /* Optional, for slightly rounded corners */
+    border-radius: 2px; 
+}
+
+
+.contribution-grid-container {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.contribution-grid {
+  display: flex;
+  overflow-x: auto; /* Enables horizontal scrolling for contributions */
+}
+
+/* Apply for smaller screens */
+@media (max-width: 768px) {
+  .contribution-grid-container {
+    max-width: 100%;
+  }
+
+  .contribution-grid div {
+    margin-right: 5px; /* Space between contribution squares */
+  }
 }
 

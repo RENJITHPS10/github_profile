@@ -29,7 +29,7 @@ function Repository() {
 
                     </div>
                 </Col>
-                <Col md={6}>
+                <Col md={6} className='mt-4 mt-sm-0'>
                     <div className='border   border-secondary px-3  rounded-2 pt-3 '>
                         <div className='d-flex justify-content-between'>
                             <div>
@@ -77,7 +77,7 @@ function Repository() {
                     </div>
 
                 </Col>
-                <Col md={6} >
+                <Col md={6} className='mt-4 mt-sm-0' >
                     <div className='border   border-secondary px-3  rounded-2 pt-3 '>
                         <div className='d-flex justify-content-between'>
                             <div>

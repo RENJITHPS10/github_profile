@@ -6,12 +6,12 @@ import React from 'react'
 function Profile() {
     return (
         <>
-            <div className="d-flex flex-column align-items-center mt-3 ms-5">
-               <div className='ms-5'>
-                    <div className="py-4 ">
+            <div className="d-flex flex-column align-items-center mt-3 ms-sm-5">
+               <div className='ms-sm-5 '>
+                    <div className=" py-4   ">
                         <img src="/src/assets/profile.jpg" className="rounded-circle" alt="" height="290px" width="290px" />
                     </div>
-                    <div style={{ width: '300px' }}>
+                    <div >
                         <h6 className="text-white fs-4 m-0">RENJITH PS</h6>
                         <h5 className="fw-light text-warning" >RENJITHPS10</h5>
                         <button className="btn btn-success border-1 border-secondary   w-100 fw-normal  p-0" style={{height:'2rem'}}>Edit profile</button>

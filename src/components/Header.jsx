@@ -28,36 +28,36 @@ function Header() {
                         <div className='d-flex align-items-center' >
                             <hr className='vertical_line me-2' />
                         </div>
-                        <div className='border border-secondary rounded-2 plusheight me-2'>
+                        <div className='border border-secondary rounded-2 plusheight me-2 d-none d-sm-block'>
                             <Button variant='dark'  >
                                 <FontAwesomeIcon icon={faPlus} className='me-3 text-secondary' />
                                 <FontAwesomeIcon icon={faAngleDown} className='text-secondary fa-sm' /></Button>
                         </div>
-                        <Button variant='dark' className='border-1 border-secondary normalbutton me-2'><FontAwesomeIcon icon={faCircleDot} className='text-secondary' /></Button>
+                        <Button variant='dark' className='border-1 border-secondary normalbutton me-2 d-none d-sm-block '><FontAwesomeIcon icon={faCircleDot} className='text-secondary' /></Button>
 
-                        <Button variant='dark' className='border-1 border-secondary normalbutton me-2'  ><FontAwesomeIcon icon={faCodePullRequest} className='text-secondary' /></Button>
+                        <Button variant='dark' className='border-1 border-secondary normalbutton me-2 d-none d-sm-block'  ><FontAwesomeIcon icon={faCodePullRequest} className='text-secondary' /></Button>
                         <Button variant='dark' className='border-1 border-secondary normalbutton me-2'  > <FontAwesomeIcon icon={faEnvelopeOpen} className='text-secondary' /></Button>
                         <img src="/src/assets/profile.jpg" alt="no image" height={35} width={35} className='rounded-circle' />
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <header className='line bg-dark px-3' >
+            <header className='line  bg-dark px-3' >
                 <Button variant='dark' className="border-0 p-0 me-2 bg-dark ">
-                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faBookOpen} className='me-1 fa-md text-warning  ' /> Overview</p>
+                    <p className='text-white ms-3 ' style={{ fontSize: '14px' }} ><FontAwesomeIcon icon={faBookOpen} className='me-1 fa-md text-warning  ' /> Overview</p>
                 </Button>
                 <Button variant='dark' className="border-0 p-0 me-2 bg-dark">
-                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faBookBookmark} className='me-1 fa-md text-warning' /> Repositories <span className='round'>13</span></p>
+                    <p className='text-white ms-3 ' style={{ fontSize: '14px' }} ><FontAwesomeIcon icon={faBookBookmark} className='me-1 fa-md text-warning' /> Repositories <span className='round'>13</span></p>
                 </Button>
-                <Button variant='dark' className="border-0 p-0 me-2 bg-dark">
-                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faTable} className='me-1 fa-md text-warning' /> Projects</p>
+                <Button variant='dark' className="border-0 p-0 me-2 bg-dark d-none d-sm-inline  ">
+                    <p className='text-white ms-3 ' style={{ fontSize: '14px' }} ><FontAwesomeIcon icon={faTable} className='me-1 fa-md text-warning ' /> Projects</p>
                 </Button>
-                <Button variant='dark' className="border-0 p-0 me-2 bg-dark">
-                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faCube} className='me-1 fa-md text-warning' /> Packages</p>
+                <Button variant='dark' className="border-0 p-0 me-2 bg-dark d-none d-sm-inline">
+                    <p className='text-white ms-3 ' style={{ fontSize: '14px' }} ><FontAwesomeIcon icon={faCube} className='me-1 fa-md text-warning ' /> Packages</p>
                 </Button>
-                <Button variant='dark' className="border-0 p-0 me-2 bg-dark">
-                    <p className='text-white ms-3 ' style={{fontSize:'14px'}} ><FontAwesomeIcon icon={faStar} className='me-1 fa-md text-warning' /> Stars</p>
+                <Button variant='dark' className="border-0 p-0 me-2 bg-dark d-none d-sm-inline">
+                    <p className='text-white ms-3 ' style={{ fontSize: '14px' }} ><FontAwesomeIcon icon={faStar} className='me-1 fa-md text-warning ' /> Stars</p>
                 </Button>
-            <hr className='hr' />
+                <hr className='hr' />
             </header>
 
         </>

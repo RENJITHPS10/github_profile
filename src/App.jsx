@@ -17,7 +17,7 @@ function App() {
             <Col md={3}>
             <Profile/>
             </Col>
-            <Col md={9} className='mt-4 py-1 px-5'>
+            <Col md={9} className='mt-4 py-1 px-sm-5'>
             <Details/>
             </Col>
           </Row>
