@@ -1,15 +1,19 @@
 import { faCircle, faFileArrowUp } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap';
 
 function Contributions2() {
   return (
     <>
-      <div className='mt-4'>
+    <Container>
+      <Row>
+        <Col md={10}>
+        <div className='mt-4'>
         <p>Contribution activity</p>
-        <div className='d-flex justify-content-center align-items-center'>
+        <div className='d-flex align-items-center'>
           <p style={{fontSize:'13px'}} className='m-0 '>October <span className='text-warning'>2024</span></p>
-          <hr className='ms-3 ' style={{ width: "87%" }} />
+          <hr className='ms-3 ' style={{ width: "74%" }} />
         </div>
         <div>
           <hr className='vertical_line mb-0 ' style={{height:'10px',marginLeft:"11px",width:'2px'}} />
@@ -19,6 +23,12 @@ function Contributions2() {
            </div>
         </div>
       </div>
+
+      </Col>
+       
+      </Row>
+    </Container>
+
     </>
   )
 }

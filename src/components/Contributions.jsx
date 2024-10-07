@@ -72,12 +72,12 @@ function Contributions() {
 
                             {/* Display contribution legend */}
                             <div className='d-flex justify-content-between align-items-center'>
-                                <p style={{ fontSize: '12px' }} className='text-warning ms-3 mt-2'>
-                                    Learn how we count contributions
+                                <p style={{ fontSize: '12px' }} className='text-warning  '>
+                                    Learn how we count 
                                 </p>
-                                <div className='d-flex'>
+                                <div className='d-flex '>
                                     <span style={{ fontSize: '12px', marginRight: '8px' }} className='text-warning'>Less</span>
-                                    <div className='d-flex align-items-center'>
+                                    <div className='d-flex  '>
                                         <div style={{ width: '12px', height: '12px', backgroundColor: 'rgb(255 255 255 / 5%)', margin: '0 4px', borderRadius: '2px' }}></div>
                                         <div style={{ width: '12px', height: '12px', backgroundColor: '#9be9a8', margin: '0 4px', borderRadius: '2px' }}></div>
                                         <div style={{ width: '12px', height: '12px', backgroundColor: '#40c463', margin: '0 4px', borderRadius: '2px' }}></div>
@@ -90,9 +90,9 @@ function Contributions() {
 
                         </div>
                     </div>
-                    <Contributions2 />
+                    
                 </Col>
-                <Col md={2}>
+                <Col md={2} className='d-none d-sm-inline'>
                     <div className='flex-wrap d-flex'>
                         <Button variant='primary' className='text-start w-100 ms-3' style={{ fontSize: '13px' }}>
                             2024
@@ -104,6 +104,7 @@ function Contributions() {
                         </Button>
                     </div>
                 </Col>
+                <Contributions2 />
             </Row>
         </div>
     );
