@@ -3,11 +3,12 @@ $warning: #9198a1; // Custom primary color
 $secondary: #3d444d; // Custom secondary color
 $success: #212830; // Custom success color
 $danger: #0d1117; // Custom danger color
-$dark:black;
-$info:#4493f8;
-
-
+$dark: black;
+$info: #4493f8;
+$but: #0d1117;
 
 
 // Step 2: Import Bootstrap's SCSS files
 @import "bootstrap/scss/bootstrap";
+
+

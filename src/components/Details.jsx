@@ -109,7 +109,7 @@ function Details() {
             <div className='text-white'>
                 <div className='d-flex justify-content-between mt-4'>
                     <p className=''>Pinned</p>
-                    <a href="" className='text-decoration-none ' style={{ fontSize: '12px' }}  >Customize Your pins</a>
+                    <a href="" className='text-decoration-none' style={{ fontSize: '12px' }}  >Customize Your pins</a>
                 </div>
                 <Repository />
                 <Contributions />

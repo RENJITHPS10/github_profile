@@ -90,7 +90,7 @@ function Contributions() {
 
                         </div>
                     </div>
-                    
+                    <Contributions2 />
                 </Col>
                 <Col md={2} className='d-none d-sm-inline'>
                     <div className='flex-wrap d-flex'>
@@ -104,7 +104,7 @@ function Contributions() {
                         </Button>
                     </div>
                 </Col>
-                <Contributions2 />
+              
             </Row>
         </div>
     );

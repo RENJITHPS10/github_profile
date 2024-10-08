@@ -41,11 +41,11 @@
 }
 
 .hr {
-  height: 3px;
-  background-color: #ffe600;
-  border: none;
-  width: 7%;
-  margin: 0;
+  margin-left: 5px;
+  height: 2px;
+  width: 100px;
+  background-color: rgb(255, 162, 0);
+
 }
 
 .bg {
@@ -83,6 +83,20 @@
   .contribution-grid div {
     margin-right: 5px; /* Space between contribution squares */
   }
+  .js{
+    margin-left:0 ;
+  }
   
 }
+.btn-but:hover{
+  background-color: #212830;
+}
+a{
+  color: #4493f8;
+}
+@media (min-width: 768px) {
+.js{
+  margin-left: 80px;
+}
 
+}
