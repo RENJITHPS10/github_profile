@@ -15,10 +15,10 @@ function App() {
      
         <Container>
           <Row>
-            <Col md={3}>
+            <Col lg={3}>
             <Profile/>
             </Col>
-            <Col md={9} className='mt-4 py-1 px-sm-5'>
+            <Col lg={9} className='mt-4 py-1 px-sm-5'>
             <Details/>
             </Col>
          

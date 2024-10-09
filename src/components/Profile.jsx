@@ -2,6 +2,8 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faLink, faUserGroup } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import profileImage from '/src/assets/profile.jpg';
+
 
 function Profile() {
     return (
@@ -9,7 +11,7 @@ function Profile() {
             <div className="d-flex flex-column align-items-center mt-3 ms-sm-5">
                <div className='ms-sm-5 '>
                     <div className=" py-4   ">
-                        <img src="/src/assets/profile.jpg" className="rounded-circle profile" alt="" height="290px" width="290px" />
+                        <img src={profileImage} className="rounded-circle profile" alt="" height="290px" width="290px" />
                     </div>
                     <div >
                         <h6 className="text-white fs-4 m-0">RENJITH PS</h6>
