@@ -8,7 +8,7 @@ import '../App.css'
 import { faAngleDown, faBookBookmark, faCodePullRequest, faCube, faEnvelopeOpen, faPlus, faTable } from '@fortawesome/free-solid-svg-icons';
 import { faCircleDot, faStar } from '@fortawesome/free-regular-svg-icons';
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons/faBookOpen';
-
+import profileImage from '/src/assets/profile.jpg';
 
 
 function Header() {
@@ -38,7 +38,7 @@ function Header() {
     
                             <Button variant='dark' className='border-1 border-secondary normalbutton me-2 d-none d-sm-block'  ><FontAwesomeIcon icon={faCodePullRequest} className='text-warning' /></Button>
                             <Button variant='dark' className='border-1 border-secondary normalbutton me-2'  > <FontAwesomeIcon icon={faEnvelopeOpen} className='text-warning' /></Button>
-                            <img src="/src/assets/profile.jpg" alt="no image" height={35} width={35} className='rounded-circle' />
+                            <img src={profileImage} alt="no image" height={35} width={35} className='rounded-circle' />
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
